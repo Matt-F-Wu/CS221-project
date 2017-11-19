@@ -1,0 +1,62 @@
+###############################################################
+About the Data: 
+--------------------------------------------------------------
+For the Training set, data/:
+
+1. For the find instructions, we have 2415 data points in total
+
+2. For display instructions, we have 1911 data points in total
+
+3. For navigate instructions, we have 399 data points in total
+
+4. For go up (to parent dir) instructions, we have 220 in total
+
+5. For go back instructions, we have 85 in total
+
+Total 5030 training data samples
+--------------------------------------------------------------
+For the Validation Set, data/validation:
+
+1. Num find instructions: 132
+
+2. Num display instructions: 36
+
+3. Num navigate instructions: 9
+
+4. Num go up instructions: 101
+
+5. Num go back instructions: 20
+
+Total 298 validation data samples
+
+###############################################################
+To train the model from fresh:
+
+1. Emprty parameters folder, which stores all the trained parameters in the model
+
+2. python translate.py
+
+###############################################################
+To test trained model performance and measure metrics:
+
+1. python translate.py --decode
+
+###############################################################
+To interact with the model from stdin
+
+2. python translate.py --decode --self_test
+
+###############################################################
+./results
+
+Stores losses during training/validation, and some other command line outputs
+
+###############################################################
+./parameters-2-128-LSTM
+
+parameters I trained with LSTM cells, is currently identical to that in parameters
+
+###############################################################
+./parameters-2-128-GRU
+
+parameters I trained with GRU cells

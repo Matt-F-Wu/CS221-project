@@ -1,0 +1,298 @@
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+find / -name "weirdstuff.py"
+find / -name "weirdstuff.py"
+find / -name "weirdstuff.py"
+find / -name "weirdstuff.py"
+find / -name "weirdstuff.py"
+find / -name "weirdstuff.py"
+find / -name "weirdstuff.py"
+find / -name "weirdstuff.py"
+find / -name "weirdstuff.py"
+find / -name "weirdstuff.py"
+find / -name "weirdstuff.py"
+find / -name "weirdstuff.py"
+find / -name "weirdstuff.py"
+find / -name "weirdstuff.py"
+find / -name "weirdstuff.py"
+find / -name "weirdstuff.py"
+find / -name "weirdstuff.py"
+find / -name "weirdstuff.py"
+find / -name "weirdstuff.py"
+find / -name "weirdstuff.py"
+find / -name "weirdstuff.py"
+find / -name "weirdstuff.py"
+find / -name "weirdstuff.py"
+find / -name "weirdstuff.py"
+find / -name "weirdstuff.py"
+find / -name "weirdstuff.py"
+find / -name "weirdstuff.py"
+find / -name "weirdstuff.py"
+find / -name "weirdstuff.py"
+find / -name "weirdstuff.py"
+find / -name "angular.js"
+find / -name "angular.js"
+find / -name "angular.js"
+find / -name "angular.js"
+find / -name "angular.js"
+find / -name "angular.js"
+find / -name "angular.js"
+find / -name "angular.js"
+find / -name "angular.js"
+find / -name "angular.js"
+find / -name "angular.js"
+find / -name "angular.js"
+find / -name "angular.js"
+find / -name "angular.js"
+find / -name "angular.js"
+find / -name "angular.js"
+find / -name "angular.js"
+find / -name "angular.js"
+find / -name "angular.js"
+find / -name "angular.js"
+find / -name "angular.js"
+find / -name "angular.js"
+find / -name "angular.js"
+find / -name "angular.js"
+find / -name "angular.js"
+find / -name "angular.js"
+find / -name "angular.js"
+find / -name "angular.js"
+find / -name "angular.js"
+find / -name "angular.js"
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+find / -name "weirdstuff.py"
+find / -name "weirdstuff.py"
+find / -name "weirdstuff.py"
+find / -name "weirdstuff.py"
+find / -name "weirdstuff.py"
+find / -name "weirdstuff.py"
+find / -name "angular.js"
+find / -name "angular.js"
+find / -name "angular.js"
+find / -name "angular.js"
+find / -name "angular.js"
+find / -name "angular.js"
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+find / -name "weirdstuff.py"
+find / -name "weirdstuff.py"
+find / -name "weirdstuff.py"
+find / -name "weirdstuff.py"
+find / -name "weirdstuff.py"
+find / -name "weirdstuff.py"
+find / -name "weirdstuff.py"
+find / -name "weirdstuff.py"
+find / -name "angular.js"
+find / -name "angular.js"
+find / -name "angular.js"
+find / -name "angular.js"
+find / -name "angular.js"
+find / -name "angular.js"
+find / -name "angular.js"
+find / -name "angular.js"
+if [[ -d asdnoiwn.txt ]]; then ls asdnoiwn.txt; else cat asdnoiwn.txt; fi; 
+if [[ -d asdnoiwn.txt ]]; then ls asdnoiwn.txt; else cat asdnoiwn.txt; fi; 
+if [[ -d asdnoiwn.txt ]]; then ls asdnoiwn.txt; else cat asdnoiwn.txt; fi; 
+if [[ -d asdnoiwn.txt ]]; then ls asdnoiwn.txt; else cat asdnoiwn.txt; fi; 
+if [[ -d asdnoiwn.txt ]]; then ls asdnoiwn.txt; else cat asdnoiwn.txt; fi; 
+if [[ -d asdnoiwn.txt ]]; then ls asdnoiwn.txt; else cat asdnoiwn.txt; fi; 
+if [[ -d asdnoiwn.txt ]]; then ls asdnoiwn.txt; else cat asdnoiwn.txt; fi; 
+if [[ -d asdnoiwn.txt ]]; then ls asdnoiwn.txt; else cat asdnoiwn.txt; fi; 
+if [[ -d asdnoiwn.txt ]]; then ls asdnoiwn.txt; else cat asdnoiwn.txt; fi; 
+if [[ -d asdnoiwn.txt ]]; then ls asdnoiwn.txt; else cat asdnoiwn.txt; fi; 
+if [[ -d asdnoiwn.txt ]]; then ls asdnoiwn.txt; else cat asdnoiwn.txt; fi; 
+if [[ -d asdnoiwn.txt ]]; then ls asdnoiwn.txt; else cat asdnoiwn.txt; fi; 
+if [[ -d weirdstuff.py ]]; then ls weirdstuff.py; else cat weirdstuff.py; fi; 
+if [[ -d weirdstuff.py ]]; then ls weirdstuff.py; else cat weirdstuff.py; fi; 
+if [[ -d weirdstuff.py ]]; then ls weirdstuff.py; else cat weirdstuff.py; fi; 
+if [[ -d weirdstuff.py ]]; then ls weirdstuff.py; else cat weirdstuff.py; fi; 
+if [[ -d weirdstuff.py ]]; then ls weirdstuff.py; else cat weirdstuff.py; fi; 
+if [[ -d weirdstuff.py ]]; then ls weirdstuff.py; else cat weirdstuff.py; fi; 
+if [[ -d weirdstuff.py ]]; then ls weirdstuff.py; else cat weirdstuff.py; fi; 
+if [[ -d weirdstuff.py ]]; then ls weirdstuff.py; else cat weirdstuff.py; fi; 
+if [[ -d weirdstuff.py ]]; then ls weirdstuff.py; else cat weirdstuff.py; fi; 
+if [[ -d weirdstuff.py ]]; then ls weirdstuff.py; else cat weirdstuff.py; fi; 
+if [[ -d weirdstuff.py ]]; then ls weirdstuff.py; else cat weirdstuff.py; fi; 
+if [[ -d weirdstuff.py ]]; then ls weirdstuff.py; else cat weirdstuff.py; fi; 
+if [[ -d angular.js ]]; then ls angular.js; else cat angular.js; fi; 
+if [[ -d angular.js ]]; then ls angular.js; else cat angular.js; fi; 
+if [[ -d angular.js ]]; then ls angular.js; else cat angular.js; fi; 
+if [[ -d angular.js ]]; then ls angular.js; else cat angular.js; fi; 
+if [[ -d angular.js ]]; then ls angular.js; else cat angular.js; fi; 
+if [[ -d angular.js ]]; then ls angular.js; else cat angular.js; fi; 
+if [[ -d angular.js ]]; then ls angular.js; else cat angular.js; fi; 
+if [[ -d angular.js ]]; then ls angular.js; else cat angular.js; fi; 
+if [[ -d angular.js ]]; then ls angular.js; else cat angular.js; fi; 
+if [[ -d angular.js ]]; then ls angular.js; else cat angular.js; fi; 
+if [[ -d angular.js ]]; then ls angular.js; else cat angular.js; fi; 
+if [[ -d angular.js ]]; then ls angular.js; else cat angular.js; fi; 
+cd asdnoiwn.txt
+cd asdnoiwn.txt
+cd asdnoiwn.txt
+cd weirdstuff.py
+cd weirdstuff.py
+cd weirdstuff.py
+cd angular.js
+cd angular.js
+cd angular.js
+cd ../
+cd ../../
+cd ../../../
+cd ../../../../
+cd ../../../../../
+cd ../../../../../../
+cd ../../../../../../../
+cd ../../../../../../../../
+cd ../../../../../../../../../
+cd ../../../../../../../../../../
+cd ../
+cd ../../
+cd ../../../
+cd ../../../../
+cd ../../../../../
+cd ../../../../../../
+cd ../../../../../../../
+cd ../../../../../../../../
+cd ../../../../../../../../../
+cd ../../../../../../../../../../
+cd ../
+cd ../../
+cd ../../../
+cd ../../../../
+cd ../../../../../
+cd ../../../../../../
+cd ../../../../../../../
+cd ../../../../../../../../
+cd ../../../../../../../../../
+cd ../../../../../../../../../../
+cd ../
+cd ../../
+cd ../../../
+cd ../../../../
+cd ../../../../../
+cd ../../../../../../
+cd ../../../../../../../
+cd ../../../../../../../../
+cd ../../../../../../../../../
+cd ../../../../../../../../../../
+cd ../
+cd ../../
+cd ../../../
+cd ../../../../
+cd ../../../../../
+cd ../../../../../../
+cd ../../../../../../../
+cd ../../../../../../../../
+cd ../../../../../../../../../
+cd ../../../../../../../../../../
+cd ../
+cd ../../
+cd ../../../
+cd ../../../../
+cd ../../../../../
+cd ../../../../../../
+cd ../../../../../../../
+cd ../../../../../../../../
+cd ../../../../../../../../../
+cd ../../../../../../../../../../
+cd ../
+cd ../../
+cd ../../../
+cd ../../../../
+cd ../../../../../
+cd ../../../../../../
+cd ../../../../../../../
+cd ../../../../../../../../
+cd ../../../../../../../../../
+cd ../../../../../../../../../../
+cd ../
+cd ../../
+cd ../../../
+cd ../../../../
+cd ../../../../../
+cd ../../../../../../
+cd ../../../../../../../
+cd ../../../../../../../../
+cd ../../../../../../../../../
+cd ../../../../../../../../../../
+cd ../
+cd ../../
+cd ../../../
+cd ../../../../
+cd ../../../../../
+cd ../../../../../../
+cd ../../../../../../../
+cd ../../../../../../../../
+cd ../../../../../../../../../
+cd ../../../../../../../../../../
+cd ../
+cd ../../
+cd ../../../
+cd ../../../../
+cd ../../../../../
+cd ../../../../../../
+cd ../../../../../../../
+cd ../../../../../../../../
+cd ../../../../../../../../../
+cd ../../../../../../../../../../
+cd ..
+cd -
+cd -
+cd -
+cd -
+cd -
+cd -
+cd -
+cd -
+cd -
+cd -
+cd -
+cd -
+cd -
+cd -
+cd -
+cd -
+cd -
+cd -
+cd -
+cd -

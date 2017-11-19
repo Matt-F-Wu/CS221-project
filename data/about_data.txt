@@ -1,0 +1,33 @@
+About the Data:
+
+#########################################
+For the Training Set:
+
+1. Num find instructions: 2415
+
+2. Num display instructions: 1911
+
+3. Num navigate instructions: 399
+
+4. Num go up instructions: 225
+
+5. Num go back instructions: 80
+
+Total 5030 training data samples
+#########################################
+
+#########################################
+For the Validation Set:
+
+Num find instructions: 132
+
+Num display instructions: 36
+
+Num navigate instructions: 9
+
+Num go up instructions: 101
+
+Num go back instructions: 20
+
+Total 298 validation data samples
+#########################################

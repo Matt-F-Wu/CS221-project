@@ -1,0 +1,8 @@
+Epoch: 0020 cost= 4893.850974418
+Epoch: 0040 cost= 4789.947492201
+Epoch: 0060 cost= 4724.933392775
+Epoch: 0080 cost= 4799.542748542
+Epoch: 0100 cost= 4871.939551521
+Overall parts matched per command in precentage: 0.09782697099350326 in Training Set
+precentage of correct ordered command: 0.958051689860835 in Training Set
+Number of complete matches: 8 out of 5030 in Training Set
