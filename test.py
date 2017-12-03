@@ -1,6 +1,6 @@
 import tensorflow as tf
 import re
-
+import data_utils
 # New features
 _DETECT_IDENTIFIER = re.compile(b"[\d\-_]")
 
@@ -22,7 +22,7 @@ def is_file(word):
   print("=============")
   return is_file_name
 
-
+'''
 is_file('../../../')
 is_file('somefile.txt;')
 is_file('"somefile.txt";')
@@ -30,3 +30,9 @@ is_file('.')
 is_file('..')
 is_file('end.')
 is_file('somefile..like')
+'''
+print(data_utils.custom_tokenizer(tf.compat.as_bytes("cd ../../../../")))
+print(data_utils.custom_tokenizer(tf.compat.as_bytes("cd ..")))
+print(data_utils.custom_tokenizer(tf.compat.as_bytes("find / -name somefile.txt")))
+print(data_utils.custom_tokenizer(tf.compat.as_bytes("go up 3 levels")))
+print(data_utils.custom_tokenizer(tf.compat.as_bytes("give me happy3 please")))

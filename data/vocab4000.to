@@ -4,8 +4,8 @@ _EOS
 _UNK
 ;
 "
-/
 find
+/
 -name
 if
 [[
@@ -16,9 +16,10 @@ ls
 else
 cat
 fi
-..
+../
 cd
+hw3
 weights
 somefolder
-hw3
 -
+..

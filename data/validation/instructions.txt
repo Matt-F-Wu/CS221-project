@@ -88,24 +88,6 @@ can you get angular.js thanks
 can you get angular.js now
 can you get angular.js for me
 can you get angular.js 
-can you tell me where asdnoiwn.txt is
-can you tell me where asdnoiwn.txt sits
-can you tell me where asdnoiwn.txt exists
-can show me where asdnoiwn.txt is
-can show me where asdnoiwn.txt sits
-can show me where asdnoiwn.txt exists
-can you tell me where weirdstuff.py is
-can you tell me where weirdstuff.py sits
-can you tell me where weirdstuff.py exists
-can show me where weirdstuff.py is
-can show me where weirdstuff.py sits
-can show me where weirdstuff.py exists
-can you tell me where angular.js is
-can you tell me where angular.js sits
-can you tell me where angular.js exists
-can show me where angular.js is
-can show me where angular.js sits
-can show me where angular.js exists
 can you help me find asdnoiwn.txt please
 can you help me find asdnoiwn.txt thanks
 can you help me find asdnoiwn.txt now
@@ -130,6 +112,24 @@ can you help me get angular.js please
 can you help me get angular.js thanks
 can you help me get angular.js now
 can you help me get angular.js 
+can you tell me where asdnoiwn.txt is
+can you tell me where asdnoiwn.txt sits
+can you tell me where asdnoiwn.txt exists
+can show me where asdnoiwn.txt is
+can show me where asdnoiwn.txt sits
+can show me where asdnoiwn.txt exists
+can you tell me where weirdstuff.py is
+can you tell me where weirdstuff.py sits
+can you tell me where weirdstuff.py exists
+can show me where weirdstuff.py is
+can show me where weirdstuff.py sits
+can show me where weirdstuff.py exists
+can you tell me where angular.js is
+can you tell me where angular.js sits
+can you tell me where angular.js exists
+can show me where angular.js is
+can show me where angular.js sits
+can show me where angular.js exists
 give me what's in asdnoiwn.txt please
 give me what's in asdnoiwn.txt thanks
 give me what's in asdnoiwn.txt now
@@ -175,6 +175,7 @@ please go into weirdstuff.py
 can you please go to angular.js
 could you go in angular.js
 please go into angular.js
+please go back to parent
 please go up 1 level
 please go up 2 level
 please go up 3 level
@@ -275,7 +276,6 @@ can you move 7 steps up
 can you move 8 steps up
 can you move 9 steps up
 can you move 10 steps up
-please go back to parent
 return to the location before please
 return to the location before thanks
 return to the location before now

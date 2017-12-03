@@ -45,11 +45,17 @@ _DIGIT_RE = re.compile(br"\d")
 # New features
 _DETECT_IDENTIFIER = re.compile(b"[\d_]")
 
-# Since .. denotes parent directory, we treat is as a special file name
-_DETECT_FILENAME = re.compile(b"([^.]+\.[^.]+|\.+)")
+# Since ../ denotes parent directory, we treat is as a special file name
+_DETECT_FILENAME = re.compile(b"([^.]+\.[^.]+|(\.\./?)+)")
 
 # split file name: split if there is any ; / " '
-_FILENAME_SPLIT = re.compile(b"([;/\"'])")
+_FILENAME_SPLIT = re.compile(b"([;\"'])")
+
+# check is token is a number
+_IS_NUM = re.compile(b"[\d]+")
+
+# is parent directory
+_IS_PARENT_DIR = re.compile(b"(\.\./?)")
 
 def basic_tokenizer(sentence):
   """Very basic tokenizer: split the sentence into a list of tokens."""
@@ -68,26 +74,40 @@ def contain_argument(word):
 def is_file_name(word):
   return (not not _DETECT_FILENAME.match(word))
 
-def custom_tokenizer(sentence):
+def is_number(word):
+  return (not not _IS_NUM.match(word))
+
+def custom_tokenizer(sentence, extract_argument=False):
   """
   A customized tokenizer, do a first round split by white space
   And considering the following special tokens for a second round split:
   when the 
   """
+  arg_value = None
   words = []
-  for space_separated_fragment in sentence.strip().split():
+  s_s_segments = sentence.strip().split()
+  for idx, space_separated_fragment in enumerate(s_s_segments):
     if contain_argument(space_separated_fragment):
       argument_segments = []
-      for arg_s in _FILENAME_SPLIT.split(space_separated_fragment):
-        if is_file_name(arg_s) and arg_s != b"..":
+      raw_segments = _FILENAME_SPLIT.split(space_separated_fragment)
+      for _, arg_s in enumerate(raw_segments):
+        if is_file_name(arg_s) and (not _IS_PARENT_DIR.match(arg_s)):
           # we map arguments to a special character _UNK, however .. is special
           argument_segments.append(_UNK)
+          arg_value = arg_s
+        elif _IS_PARENT_DIR.match(arg_s):
+          argument_segments.extend(_IS_PARENT_DIR.split(arg_s))
+        elif is_number(arg_s):
+          argument_segments.extend([s_s_segments[idx + 1]] * (int(arg_s) - 1))
         else:
           argument_segments.append(arg_s)
       words.extend(argument_segments)
     else:
       words.extend(_WORD_SPLIT.split(space_separated_fragment))
-  return [w for w in words if w]
+  if extract_argument:
+    return ([w for w in words if w], arg_value)
+  else:
+    return [w for w in words if w] 
 
 
 def create_vocabulary(vocabulary_path, data_path, max_vocabulary_size,
@@ -197,10 +217,38 @@ def sentence_to_token_ids(sentence, vocabulary,
     return [vocabulary.get(w, UNK_ID) for w in words]
   # Normalize digits by 0 before looking words up in the vocabulary.
   tokens = [vocabulary.get(_DIGIT_RE.sub(b"0", w), UNK_ID) for w in words]
-  print("###########")
-  print(sentence)
-  print(tokens)
+  
   return tokens
+
+def sentence_to_token_ids_extract_argument(sentence, vocabulary,
+                          tokenizer=None, normalize_digits=False):
+  """Convert a string to list of integers representing token-ids.
+
+  For example, a sentence "I have a dog" may become tokenized into
+  ["I", "have", "a", "dog"] and with vocabulary {"I": 1, "have": 2,
+  "a": 4, "dog": 7"} this function will return [1, 2, 4, 7].
+
+  Args:
+    sentence: the sentence in bytes format to convert to token-ids.
+    vocabulary: a dictionary mapping tokens to integers.
+    tokenizer: a function to use to tokenize each sentence;
+      if None, custom_tokenizer will be used.
+    normalize_digits: Boolean; if true, all digits are replaced by 0s.
+
+  Returns:
+    a list of integers, the token-ids for the sentence.
+  """
+  arg_value = None
+  if tokenizer:
+    words = tokenizer(sentence)
+  else:
+    words, arg_value = custom_tokenizer(sentence, extract_argument=True)
+  if not normalize_digits:
+    return [vocabulary.get(w, UNK_ID) for w in words], arg_value
+  # Normalize digits by 0 before looking words up in the vocabulary.
+  tokens = [vocabulary.get(_DIGIT_RE.sub(b"0", w), UNK_ID) for w in words]
+  
+  return tokens, arg_value
 
 
 def data_to_token_ids(data_path, target_path, vocabulary_path,

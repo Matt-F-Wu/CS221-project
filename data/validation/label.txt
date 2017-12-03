@@ -1,298 +1,298 @@
-cd ../../../../../../../../
-cd ../../../../../../../../
 find / -name "angular.js"
-if [[ -d weirdstuff.py ]]; then ls weirdstuff.py; else cat weirdstuff.py; fi; 
-find / -name "asdnoiwn.txt"
-find / -name "weirdstuff.py"
-cd angular.js
-cd ../../../../../../../
 cd -
+find / -name "asdnoiwn.txt"
 find / -name "angular.js"
 find / -name "asdnoiwn.txt"
-find / -name "weirdstuff.py"
-find / -name "weirdstuff.py"
-find / -name "angular.js"
-find / -name "angular.js"
-find / -name "angular.js"
-find / -name "angular.js"
-find / -name "weirdstuff.py"
-find / -name "weirdstuff.py"
-cd ../../../../../../
+cd ../../
 cd ../../../../
+find / -name "weirdstuff.py"
+cd ../../../../../../../
+find / -name "weirdstuff.py"
+cd ../
+find / -name "weirdstuff.py"
+cd ../../../../../../../../../../
+if [[ -d angular.js ]]; then ls angular.js; else cat angular.js; fi; 
+find / -name "angular.js"
+cd ../../../../../../../
+cd ../../../../../../../
+find / -name "weirdstuff.py"
+find / -name "weirdstuff.py"
+find / -name "weirdstuff.py"
 if [[ -d angular.js ]]; then ls angular.js; else cat angular.js; fi; 
 find / -name "angular.js"
 find / -name "angular.js"
-cd -
-find / -name "weirdstuff.py"
-find / -name "angular.js"
-find / -name "angular.js"
-cd ../../../../../../../../
+cd ../../../../../
+find / -name "asdnoiwn.txt"
+cd ../../../../../../
 cd ../../../../../
 find / -name "angular.js"
-if [[ -d angular.js ]]; then ls angular.js; else cat angular.js; fi; 
-find / -name "asdnoiwn.txt"
+find / -name "angular.js"
+find / -name "angular.js"
+if [[ -d weirdstuff.py ]]; then ls weirdstuff.py; else cat weirdstuff.py; fi; 
 find / -name "weirdstuff.py"
+find / -name "weirdstuff.py"
+find / -name "asdnoiwn.txt"
+find / -name "angular.js"
+find / -name "angular.js"
+find / -name "weirdstuff.py"
+cd -
+find / -name "angular.js"
+cd ../../../../../../../../../
+cd -
+find / -name "weirdstuff.py"
+cd ../../../../../../../../
+find / -name "weirdstuff.py"
+find / -name "asdnoiwn.txt"
+cd ../../../../../../../
+if [[ -d asdnoiwn.txt ]]; then ls asdnoiwn.txt; else cat asdnoiwn.txt; fi; 
 cd weirdstuff.py
 find / -name "angular.js"
-cd ../../../../
+cd ../../../../../../
+cd ../../../../../../../
 if [[ -d angular.js ]]; then ls angular.js; else cat angular.js; fi; 
 find / -name "asdnoiwn.txt"
+find / -name "angular.js"
+cd ../../../../../../
+find / -name "asdnoiwn.txt"
+cd -
+find / -name "angular.js"
+cd -
+cd ../../../../../../../
 if [[ -d weirdstuff.py ]]; then ls weirdstuff.py; else cat weirdstuff.py; fi; 
 find / -name "weirdstuff.py"
-cd -
-cd ../../../../../../../
-find / -name "weirdstuff.py"
-cd ../
-cd -
-find / -name "angular.js"
-cd ../../../../../../
-cd ../../../../../../../../../../
-find / -name "weirdstuff.py"
-cd asdnoiwn.txt
-find / -name "asdnoiwn.txt"
-find / -name "weirdstuff.py"
-find / -name "angular.js"
-cd -
-cd -
-find / -name "weirdstuff.py"
-cd ../../../../../../../../../../
-cd ../../../../../../
-find / -name "asdnoiwn.txt"
-cd ../../../
-cd ../../../
-if [[ -d asdnoiwn.txt ]]; then ls asdnoiwn.txt; else cat asdnoiwn.txt; fi; 
-if [[ -d angular.js ]]; then ls angular.js; else cat angular.js; fi; 
-find / -name "angular.js"
-cd -
-find / -name "weirdstuff.py"
-cd ../../../../../
-find / -name "asdnoiwn.txt"
-cd -
-find / -name "asdnoiwn.txt"
-find / -name "weirdstuff.py"
-if [[ -d asdnoiwn.txt ]]; then ls asdnoiwn.txt; else cat asdnoiwn.txt; fi; 
-cd ../../../../../../../
-cd ../../../../../../../../../../
-find / -name "weirdstuff.py"
-find / -name "asdnoiwn.txt"
-cd asdnoiwn.txt
-find / -name "asdnoiwn.txt"
-find / -name "angular.js"
-cd ../../../../../
-cd ../../
-find / -name "asdnoiwn.txt"
-find / -name "asdnoiwn.txt"
-cd ../../../../
-find / -name "angular.js"
-if [[ -d angular.js ]]; then ls angular.js; else cat angular.js; fi; 
-cd ../../../
-if [[ -d asdnoiwn.txt ]]; then ls asdnoiwn.txt; else cat asdnoiwn.txt; fi; 
-find / -name "angular.js"
-if [[ -d angular.js ]]; then ls angular.js; else cat angular.js; fi; 
-cd ../../../../../../../../
-cd -
-if [[ -d angular.js ]]; then ls angular.js; else cat angular.js; fi; 
-if [[ -d asdnoiwn.txt ]]; then ls asdnoiwn.txt; else cat asdnoiwn.txt; fi; 
 cd angular.js
-find / -name "weirdstuff.py"
-cd ../../../../
-cd ../../../
-find / -name "angular.js"
-if [[ -d weirdstuff.py ]]; then ls weirdstuff.py; else cat weirdstuff.py; fi; 
-find / -name "angular.js"
-if [[ -d angular.js ]]; then ls angular.js; else cat angular.js; fi; 
-cd ../../../../
 cd ../../../../../../../../../../
-if [[ -d asdnoiwn.txt ]]; then ls asdnoiwn.txt; else cat asdnoiwn.txt; fi; 
 find / -name "angular.js"
-cd ../../../../../../../
+find / -name "asdnoiwn.txt"
 cd ../../../
-cd ../../../../../../../../../
-cd ../../../../../../../
-find / -name "angular.js"
-find / -name "weirdstuff.py"
-cd ../
-cd -
 find / -name "asdnoiwn.txt"
-find / -name "asdnoiwn.txt"
-cd ../../../../
-if [[ -d asdnoiwn.txt ]]; then ls asdnoiwn.txt; else cat asdnoiwn.txt; fi; 
-if [[ -d angular.js ]]; then ls angular.js; else cat angular.js; fi; 
-find / -name "asdnoiwn.txt"
-find / -name "asdnoiwn.txt"
-find / -name "weirdstuff.py"
-find / -name "angular.js"
-find / -name "asdnoiwn.txt"
-if [[ -d weirdstuff.py ]]; then ls weirdstuff.py; else cat weirdstuff.py; fi; 
 find / -name "weirdstuff.py"
 cd -
-cd -
-cd ../../../../../../../../../
-find / -name "weirdstuff.py"
-cd ../../../../../
-find / -name "weirdstuff.py"
-cd ../../../../../../../
 cd ../../../
-cd ../../
+find / -name "weirdstuff.py"
+cd -
 find / -name "asdnoiwn.txt"
+cd ../../../
+cd -
 find / -name "weirdstuff.py"
 cd ../../../../../../../../
+find / -name "weirdstuff.py"
 if [[ -d asdnoiwn.txt ]]; then ls asdnoiwn.txt; else cat asdnoiwn.txt; fi; 
 find / -name "asdnoiwn.txt"
 cd ../
 cd ../../../../../../../../
+if [[ -d weirdstuff.py ]]; then ls weirdstuff.py; else cat weirdstuff.py; fi; 
 find / -name "asdnoiwn.txt"
-if [[ -d asdnoiwn.txt ]]; then ls asdnoiwn.txt; else cat asdnoiwn.txt; fi; 
+cd ../../../../../../../../
+find / -name "weirdstuff.py"
 find / -name "angular.js"
-cd ../../../../../../../
-cd ../../../../../../../../../../
-cd ../
+if [[ -d weirdstuff.py ]]; then ls weirdstuff.py; else cat weirdstuff.py; fi; 
+find / -name "weirdstuff.py"
 cd ../../../../../
-cd ../../
-cd ../../../../../../../../../../
-find / -name "asdnoiwn.txt"
-find / -name "asdnoiwn.txt"
-cd ../
-find / -name "weirdstuff.py"
-if [[ -d angular.js ]]; then ls angular.js; else cat angular.js; fi; 
-find / -name "angular.js"
-cd ../../../../../../../
-cd ../../../../../../../../../
-find / -name "weirdstuff.py"
-find / -name "asdnoiwn.txt"
-find / -name "asdnoiwn.txt"
-cd ../../
-find / -name "angular.js"
-cd ../../../../../../../../../
 cd -
-find / -name "angular.js"
-find / -name "asdnoiwn.txt"
 cd angular.js
-cd ../
-find / -name "weirdstuff.py"
-cd ../../../../
-find / -name "asdnoiwn.txt"
-find / -name "angular.js"
-if [[ -d weirdstuff.py ]]; then ls weirdstuff.py; else cat weirdstuff.py; fi; 
-find / -name "asdnoiwn.txt"
-find / -name "weirdstuff.py"
-if [[ -d weirdstuff.py ]]; then ls weirdstuff.py; else cat weirdstuff.py; fi; 
-cd ../../../../../../
-find / -name "angular.js"
-cd ../../../
-cd ../../../../
-if [[ -d asdnoiwn.txt ]]; then ls asdnoiwn.txt; else cat asdnoiwn.txt; fi; 
-cd asdnoiwn.txt
-cd ../
-cd weirdstuff.py
-cd ../../../../../
-if [[ -d weirdstuff.py ]]; then ls weirdstuff.py; else cat weirdstuff.py; fi; 
-find / -name "angular.js"
-cd ../../../
-find / -name "asdnoiwn.txt"
-if [[ -d asdnoiwn.txt ]]; then ls asdnoiwn.txt; else cat asdnoiwn.txt; fi; 
-find / -name "weirdstuff.py"
-find / -name "weirdstuff.py"
 cd -
 find / -name "weirdstuff.py"
-cd ../../../../../../../../../
-find / -name "angular.js"
-find / -name "angular.js"
-cd ../../../../../
-cd ../../../../../../../../../
-cd ../../../
-cd ../../../../../../../
+find / -name "asdnoiwn.txt"
 find / -name "weirdstuff.py"
-find / -name "angular.js"
+find / -name "weirdstuff.py"
+find / -name "weirdstuff.py"
 find / -name "weirdstuff.py"
 find / -name "angular.js"
 cd ../../../../../../../../../../
+cd -
+cd ../../../../../../../../../
+if [[ -d asdnoiwn.txt ]]; then ls asdnoiwn.txt; else cat asdnoiwn.txt; fi; 
 find / -name "asdnoiwn.txt"
 find / -name "angular.js"
+cd ../../../../../../../../
+cd ../../
+if [[ -d weirdstuff.py ]]; then ls weirdstuff.py; else cat weirdstuff.py; fi; 
 if [[ -d angular.js ]]; then ls angular.js; else cat angular.js; fi; 
-find / -name "angular.js"
-cd ../../../../../../
-find / -name "angular.js"
-cd ../../../../../../../../../../
-find / -name "angular.js"
-find / -name "asdnoiwn.txt"
-find / -name "asdnoiwn.txt"
 cd -
-cd ../../../../../../
-cd ../../../../../../../
-cd ../../../../../../../../
-cd -
-find / -name "weirdstuff.py"
-cd ../../
-find / -name "asdnoiwn.txt"
-if [[ -d weirdstuff.py ]]; then ls weirdstuff.py; else cat weirdstuff.py; fi; 
-find / -name "asdnoiwn.txt"
-find / -name "angular.js"
-cd ../
-find / -name "asdnoiwn.txt"
-find / -name "weirdstuff.py"
-find / -name "asdnoiwn.txt"
-find / -name "weirdstuff.py"
-if [[ -d weirdstuff.py ]]; then ls weirdstuff.py; else cat weirdstuff.py; fi; 
-if [[ -d weirdstuff.py ]]; then ls weirdstuff.py; else cat weirdstuff.py; fi; 
-find / -name "angular.js"
-find / -name "weirdstuff.py"
-cd ../../../../../../../../../
-cd ../../
-cd -
-find / -name "asdnoiwn.txt"
-cd ../../../../../../
-cd ../../../../../../../../../
-cd ../../../../../../../../
-find / -name "asdnoiwn.txt"
-cd -
-if [[ -d weirdstuff.py ]]; then ls weirdstuff.py; else cat weirdstuff.py; fi; 
-find / -name "asdnoiwn.txt"
-if [[ -d asdnoiwn.txt ]]; then ls asdnoiwn.txt; else cat asdnoiwn.txt; fi; 
-cd ../../
-cd ../../
-if [[ -d asdnoiwn.txt ]]; then ls asdnoiwn.txt; else cat asdnoiwn.txt; fi; 
-cd ../
-cd ../../../../../../../../../
-find / -name "weirdstuff.py"
-find / -name "asdnoiwn.txt"
-if [[ -d angular.js ]]; then ls angular.js; else cat angular.js; fi; 
-cd ../../../../../
-cd ../../../../../../../../
-cd ../../../../../
-if [[ -d weirdstuff.py ]]; then ls weirdstuff.py; else cat weirdstuff.py; fi; 
-cd ../
-find / -name "weirdstuff.py"
-find / -name "asdnoiwn.txt"
-cd ../../../../../../
-find / -name "angular.js"
-cd ../../../../../../../../
-cd ../../../
-cd ../../../../../../../../../
-find / -name "asdnoiwn.txt"
-cd ../../../../../../../../../../
-cd ../../../../../../../../../../
-cd weirdstuff.py
-cd ../../
-find / -name "asdnoiwn.txt"
-find / -name "angular.js"
-find / -name "weirdstuff.py"
-find / -name "weirdstuff.py"
-find / -name "angular.js"
-find / -name "weirdstuff.py"
-cd ../../
-find / -name "weirdstuff.py"
-cd -
-cd -
-cd ../../../../
-find / -name "angular.js"
-find / -name "asdnoiwn.txt"
-find / -name "asdnoiwn.txt"
 cd ..
+find / -name "weirdstuff.py"
+cd -
+cd -
+cd ../../
+find / -name "weirdstuff.py"
+find / -name "asdnoiwn.txt"
+find / -name "weirdstuff.py"
+find / -name "angular.js"
 cd ../../../../../
-find / -name "weirdstuff.py"
-cd ../../../../../../
-cd ../../../../../../
-find / -name "weirdstuff.py"
+find / -name "angular.js"
+cd ../../../
 cd ../../../../
+cd ../../../../
+cd ../
+cd ../../../../../../
+find / -name "angular.js"
+find / -name "angular.js"
+cd ../
+cd weirdstuff.py
+cd ../../../../../
+if [[ -d asdnoiwn.txt ]]; then ls asdnoiwn.txt; else cat asdnoiwn.txt; fi; 
+find / -name "weirdstuff.py"
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+cd asdnoiwn.txt
+cd ../../../
+if [[ -d angular.js ]]; then ls angular.js; else cat angular.js; fi; 
+find / -name "angular.js"
+cd ../../../../../../../../../../
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+find / -name "weirdstuff.py"
+cd ../../../
+cd -
+cd ../../../../../
+if [[ -d weirdstuff.py ]]; then ls weirdstuff.py; else cat weirdstuff.py; fi; 
+cd ../../../../../../../../
+cd ../../../
+cd ../../../../
+find / -name "weirdstuff.py"
+cd asdnoiwn.txt
+if [[ -d weirdstuff.py ]]; then ls weirdstuff.py; else cat weirdstuff.py; fi; 
+find / -name "asdnoiwn.txt"
+find / -name "angular.js"
+cd ../../../../../../../
+cd ../../../../
+find / -name "asdnoiwn.txt"
+if [[ -d asdnoiwn.txt ]]; then ls asdnoiwn.txt; else cat asdnoiwn.txt; fi; 
+if [[ -d asdnoiwn.txt ]]; then ls asdnoiwn.txt; else cat asdnoiwn.txt; fi; 
+find / -name "asdnoiwn.txt"
+cd ../../
+find / -name "weirdstuff.py"
+find / -name "angular.js"
+cd ../../../../../../../../../
+find / -name "weirdstuff.py"
+cd ../../../../../../../../../../
+cd ../../../../../
+cd ../../
+cd ../../../../../../
+cd -
+find / -name "asdnoiwn.txt"
+cd ../
+cd ../../../../../
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+find / -name "asdnoiwn.txt"
+cd ../../../../../../../../../
+find / -name "asdnoiwn.txt"
+if [[ -d asdnoiwn.txt ]]; then ls asdnoiwn.txt; else cat asdnoiwn.txt; fi; 
+if [[ -d asdnoiwn.txt ]]; then ls asdnoiwn.txt; else cat asdnoiwn.txt; fi; 
+cd ../
+cd ../../../../
+cd ../../
+find / -name "asdnoiwn.txt"
+if [[ -d angular.js ]]; then ls angular.js; else cat angular.js; fi; 
+find / -name "weirdstuff.py"
+cd ../../../../../
+find / -name "angular.js"
+find / -name "weirdstuff.py"
+find / -name "angular.js"
+cd ../../../../../../../../../
+cd ../../../../../../../
+cd ../../../../../../../
+if [[ -d asdnoiwn.txt ]]; then ls asdnoiwn.txt; else cat asdnoiwn.txt; fi; 
+cd ../../../../
+cd ../../../../
+find / -name "asdnoiwn.txt"
+find / -name "weirdstuff.py"
+find / -name "asdnoiwn.txt"
+cd angular.js
+find / -name "asdnoiwn.txt"
+cd ../
+cd ../../../../../../../../../
+find / -name "weirdstuff.py"
+find / -name "angular.js"
+find / -name "weirdstuff.py"
+find / -name "angular.js"
+if [[ -d asdnoiwn.txt ]]; then ls asdnoiwn.txt; else cat asdnoiwn.txt; fi; 
+find / -name "asdnoiwn.txt"
+cd ../../../../../../../../
+cd ../../../../../../../../../../
+if [[ -d angular.js ]]; then ls angular.js; else cat angular.js; fi; 
+find / -name "weirdstuff.py"
+cd ../../../../../../
+if [[ -d asdnoiwn.txt ]]; then ls asdnoiwn.txt; else cat asdnoiwn.txt; fi; 
+find / -name "asdnoiwn.txt"
+find / -name "weirdstuff.py"
+cd ../../../../../../../../../../
+find / -name "asdnoiwn.txt"
+find / -name "angular.js"
+cd ../../../../
+if [[ -d weirdstuff.py ]]; then ls weirdstuff.py; else cat weirdstuff.py; fi; 
+find / -name "asdnoiwn.txt"
+find / -name "angular.js"
+find / -name "angular.js"
+cd ../../../../../../../
+find / -name "asdnoiwn.txt"
+if [[ -d weirdstuff.py ]]; then ls weirdstuff.py; else cat weirdstuff.py; fi; 
+if [[ -d weirdstuff.py ]]; then ls weirdstuff.py; else cat weirdstuff.py; fi; 
+find / -name "angular.js"
+find / -name "angular.js"
+find / -name "asdnoiwn.txt"
+cd ../../../
+find / -name "angular.js"
+find / -name "asdnoiwn.txt"
+cd ../../../../../../../../../
+cd ../../
+find / -name "asdnoiwn.txt"
+cd ../../../../../../../../../
+cd ../
+cd ../../../../../../../../
+cd ../../../../../../
+find / -name "weirdstuff.py"
+if [[ -d angular.js ]]; then ls angular.js; else cat angular.js; fi; 
+find / -name "angular.js"
+cd ../../
+cd ../../../../../
+if [[ -d asdnoiwn.txt ]]; then ls asdnoiwn.txt; else cat asdnoiwn.txt; fi; 
+cd -
+find / -name "angular.js"
+find / -name "angular.js"
+cd ../../../../../../
+find / -name "angular.js"
+find / -name "weirdstuff.py"
+cd ../../../../../../../../
+find / -name "angular.js"
+find / -name "asdnoiwn.txt"
+cd ../../../../
+if [[ -d angular.js ]]; then ls angular.js; else cat angular.js; fi; 
+if [[ -d weirdstuff.py ]]; then ls weirdstuff.py; else cat weirdstuff.py; fi; 
+cd ../
+cd -
+cd ../../../../../../../../../
+cd ../../../../../../../../../../
+find / -name "weirdstuff.py"
+cd ../../../
+find / -name "angular.js"
+find / -name "angular.js"
+if [[ -d weirdstuff.py ]]; then ls weirdstuff.py; else cat weirdstuff.py; fi; 
+if [[ -d angular.js ]]; then ls angular.js; else cat angular.js; fi; 
+find / -name "asdnoiwn.txt"
+cd -
+cd ../../../../../../
+cd -
+cd ../../../
+cd ../../../../../../../../../../
+find / -name "angular.js"
+if [[ -d angular.js ]]; then ls angular.js; else cat angular.js; fi; 
+cd ../../../../../../../../
+find / -name "weirdstuff.py"
+cd ../../
+cd ../
+cd asdnoiwn.txt
+cd ../../../../../../../../../../
+if [[ -d angular.js ]]; then ls angular.js; else cat angular.js; fi; 
+cd ../../../../../../../../../
+cd ../../
+find / -name "angular.js"
+find / -name "asdnoiwn.txt"
+find / -name "weirdstuff.py"
+cd weirdstuff.py
+cd ../../../../../../
 find / -name "weirdstuff.py"

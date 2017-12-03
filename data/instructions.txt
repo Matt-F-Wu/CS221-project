@@ -1468,195 +1468,6 @@ can you locate picture.jpeg thanks
 can you locate picture.jpeg now
 can you locate picture.jpeg for me
 can you locate picture.jpeg 
-tell me where a.txt is
-tell me where a.txt sits
-tell me where a.txt exists
-can you help me find where a.txt is
-can you help me find where a.txt sits
-can you help me find where a.txt exists
-show me where a.txt is
-show me where a.txt sits
-show me where a.txt exists
-tell me where b.txt is
-tell me where b.txt sits
-tell me where b.txt exists
-can you help me find where b.txt is
-can you help me find where b.txt sits
-can you help me find where b.txt exists
-show me where b.txt is
-show me where b.txt sits
-show me where b.txt exists
-tell me where code.py is
-tell me where code.py sits
-tell me where code.py exists
-can you help me find where code.py is
-can you help me find where code.py sits
-can you help me find where code.py exists
-show me where code.py is
-show me where code.py sits
-show me where code.py exists
-tell me where instructions.pdf is
-tell me where instructions.pdf sits
-tell me where instructions.pdf exists
-can you help me find where instructions.pdf is
-can you help me find where instructions.pdf sits
-can you help me find where instructions.pdf exists
-show me where instructions.pdf is
-show me where instructions.pdf sits
-show me where instructions.pdf exists
-tell me where submissions.py is
-tell me where submissions.py sits
-tell me where submissions.py exists
-can you help me find where submissions.py is
-can you help me find where submissions.py sits
-can you help me find where submissions.py exists
-show me where submissions.py is
-show me where submissions.py sits
-show me where submissions.py exists
-tell me where graders.c is
-tell me where graders.c sits
-tell me where graders.c exists
-can you help me find where graders.c is
-can you help me find where graders.c sits
-can you help me find where graders.c exists
-show me where graders.c is
-show me where graders.c sits
-show me where graders.c exists
-tell me where graders.cpp is
-tell me where graders.cpp sits
-tell me where graders.cpp exists
-can you help me find where graders.cpp is
-can you help me find where graders.cpp sits
-can you help me find where graders.cpp exists
-show me where graders.cpp is
-show me where graders.cpp sits
-show me where graders.cpp exists
-tell me where webserver.js is
-tell me where webserver.js sits
-tell me where webserver.js exists
-can you help me find where webserver.js is
-can you help me find where webserver.js sits
-can you help me find where webserver.js exists
-show me where webserver.js is
-show me where webserver.js sits
-show me where webserver.js exists
-tell me where dummy.back is
-tell me where dummy.back sits
-tell me where dummy.back exists
-can you help me find where dummy.back is
-can you help me find where dummy.back sits
-can you help me find where dummy.back exists
-show me where dummy.back is
-show me where dummy.back sits
-show me where dummy.back exists
-tell me where hello.html is
-tell me where hello.html sits
-tell me where hello.html exists
-can you help me find where hello.html is
-can you help me find where hello.html sits
-can you help me find where hello.html exists
-show me where hello.html is
-show me where hello.html sits
-show me where hello.html exists
-tell me where both-small.png is
-tell me where both-small.png sits
-tell me where both-small.png exists
-can you help me find where both-small.png is
-can you help me find where both-small.png sits
-can you help me find where both-small.png exists
-show me where both-small.png is
-show me where both-small.png sits
-show me where both-small.png exists
-tell me where submission.pyc is
-tell me where submission.pyc sits
-tell me where submission.pyc exists
-can you help me find where submission.pyc is
-can you help me find where submission.pyc sits
-can you help me find where submission.pyc exists
-show me where submission.pyc is
-show me where submission.pyc sits
-show me where submission.pyc exists
-tell me where main.css is
-tell me where main.css sits
-tell me where main.css exists
-can you help me find where main.css is
-can you help me find where main.css sits
-can you help me find where main.css exists
-show me where main.css is
-show me where main.css sits
-show me where main.css exists
-tell me where hw3 is
-tell me where hw3 sits
-tell me where hw3 exists
-can you help me find where hw3 is
-can you help me find where hw3 sits
-can you help me find where hw3 exists
-show me where hw3 is
-show me where hw3 sits
-show me where hw3 exists
-tell me where weights is
-tell me where weights sits
-tell me where weights exists
-can you help me find where weights is
-can you help me find where weights sits
-can you help me find where weights exists
-show me where weights is
-show me where weights sits
-show me where weights exists
-tell me where somefolder is
-tell me where somefolder sits
-tell me where somefolder exists
-can you help me find where somefolder is
-can you help me find where somefolder sits
-can you help me find where somefolder exists
-show me where somefolder is
-show me where somefolder sits
-show me where somefolder exists
-tell me where image.jpg is
-tell me where image.jpg sits
-tell me where image.jpg exists
-can you help me find where image.jpg is
-can you help me find where image.jpg sits
-can you help me find where image.jpg exists
-show me where image.jpg is
-show me where image.jpg sits
-show me where image.jpg exists
-tell me where homework.doc is
-tell me where homework.doc sits
-tell me where homework.doc exists
-can you help me find where homework.doc is
-can you help me find where homework.doc sits
-can you help me find where homework.doc exists
-show me where homework.doc is
-show me where homework.doc sits
-show me where homework.doc exists
-tell me where lalala.docx is
-tell me where lalala.docx sits
-tell me where lalala.docx exists
-can you help me find where lalala.docx is
-can you help me find where lalala.docx sits
-can you help me find where lalala.docx exists
-show me where lalala.docx is
-show me where lalala.docx sits
-show me where lalala.docx exists
-tell me where android.java is
-tell me where android.java sits
-tell me where android.java exists
-can you help me find where android.java is
-can you help me find where android.java sits
-can you help me find where android.java exists
-show me where android.java is
-show me where android.java sits
-show me where android.java exists
-tell me where picture.jpeg is
-tell me where picture.jpeg sits
-tell me where picture.jpeg exists
-can you help me find where picture.jpeg is
-can you help me find where picture.jpeg sits
-can you help me find where picture.jpeg exists
-show me where picture.jpeg is
-show me where picture.jpeg sits
-show me where picture.jpeg exists
 help me find a.txt please
 help me find a.txt thanks
 help me find a.txt now
@@ -2413,6 +2224,531 @@ help me grab picture.jpeg please
 help me grab picture.jpeg thanks
 help me grab picture.jpeg now
 help me grab picture.jpeg 
+tell me where a.txt is
+tell me where a.txt sits
+tell me where a.txt exists
+can you help me find where a.txt is
+can you help me find where a.txt sits
+can you help me find where a.txt exists
+show me where a.txt is
+show me where a.txt sits
+show me where a.txt exists
+tell me where b.txt is
+tell me where b.txt sits
+tell me where b.txt exists
+can you help me find where b.txt is
+can you help me find where b.txt sits
+can you help me find where b.txt exists
+show me where b.txt is
+show me where b.txt sits
+show me where b.txt exists
+tell me where code.py is
+tell me where code.py sits
+tell me where code.py exists
+can you help me find where code.py is
+can you help me find where code.py sits
+can you help me find where code.py exists
+show me where code.py is
+show me where code.py sits
+show me where code.py exists
+tell me where instructions.pdf is
+tell me where instructions.pdf sits
+tell me where instructions.pdf exists
+can you help me find where instructions.pdf is
+can you help me find where instructions.pdf sits
+can you help me find where instructions.pdf exists
+show me where instructions.pdf is
+show me where instructions.pdf sits
+show me where instructions.pdf exists
+tell me where submissions.py is
+tell me where submissions.py sits
+tell me where submissions.py exists
+can you help me find where submissions.py is
+can you help me find where submissions.py sits
+can you help me find where submissions.py exists
+show me where submissions.py is
+show me where submissions.py sits
+show me where submissions.py exists
+tell me where graders.c is
+tell me where graders.c sits
+tell me where graders.c exists
+can you help me find where graders.c is
+can you help me find where graders.c sits
+can you help me find where graders.c exists
+show me where graders.c is
+show me where graders.c sits
+show me where graders.c exists
+tell me where graders.cpp is
+tell me where graders.cpp sits
+tell me where graders.cpp exists
+can you help me find where graders.cpp is
+can you help me find where graders.cpp sits
+can you help me find where graders.cpp exists
+show me where graders.cpp is
+show me where graders.cpp sits
+show me where graders.cpp exists
+tell me where webserver.js is
+tell me where webserver.js sits
+tell me where webserver.js exists
+can you help me find where webserver.js is
+can you help me find where webserver.js sits
+can you help me find where webserver.js exists
+show me where webserver.js is
+show me where webserver.js sits
+show me where webserver.js exists
+tell me where dummy.back is
+tell me where dummy.back sits
+tell me where dummy.back exists
+can you help me find where dummy.back is
+can you help me find where dummy.back sits
+can you help me find where dummy.back exists
+show me where dummy.back is
+show me where dummy.back sits
+show me where dummy.back exists
+tell me where hello.html is
+tell me where hello.html sits
+tell me where hello.html exists
+can you help me find where hello.html is
+can you help me find where hello.html sits
+can you help me find where hello.html exists
+show me where hello.html is
+show me where hello.html sits
+show me where hello.html exists
+tell me where both-small.png is
+tell me where both-small.png sits
+tell me where both-small.png exists
+can you help me find where both-small.png is
+can you help me find where both-small.png sits
+can you help me find where both-small.png exists
+show me where both-small.png is
+show me where both-small.png sits
+show me where both-small.png exists
+tell me where submission.pyc is
+tell me where submission.pyc sits
+tell me where submission.pyc exists
+can you help me find where submission.pyc is
+can you help me find where submission.pyc sits
+can you help me find where submission.pyc exists
+show me where submission.pyc is
+show me where submission.pyc sits
+show me where submission.pyc exists
+tell me where main.css is
+tell me where main.css sits
+tell me where main.css exists
+can you help me find where main.css is
+can you help me find where main.css sits
+can you help me find where main.css exists
+show me where main.css is
+show me where main.css sits
+show me where main.css exists
+tell me where hw3 is
+tell me where hw3 sits
+tell me where hw3 exists
+can you help me find where hw3 is
+can you help me find where hw3 sits
+can you help me find where hw3 exists
+show me where hw3 is
+show me where hw3 sits
+show me where hw3 exists
+tell me where weights is
+tell me where weights sits
+tell me where weights exists
+can you help me find where weights is
+can you help me find where weights sits
+can you help me find where weights exists
+show me where weights is
+show me where weights sits
+show me where weights exists
+tell me where somefolder is
+tell me where somefolder sits
+tell me where somefolder exists
+can you help me find where somefolder is
+can you help me find where somefolder sits
+can you help me find where somefolder exists
+show me where somefolder is
+show me where somefolder sits
+show me where somefolder exists
+tell me where image.jpg is
+tell me where image.jpg sits
+tell me where image.jpg exists
+can you help me find where image.jpg is
+can you help me find where image.jpg sits
+can you help me find where image.jpg exists
+show me where image.jpg is
+show me where image.jpg sits
+show me where image.jpg exists
+tell me where homework.doc is
+tell me where homework.doc sits
+tell me where homework.doc exists
+can you help me find where homework.doc is
+can you help me find where homework.doc sits
+can you help me find where homework.doc exists
+show me where homework.doc is
+show me where homework.doc sits
+show me where homework.doc exists
+tell me where lalala.docx is
+tell me where lalala.docx sits
+tell me where lalala.docx exists
+can you help me find where lalala.docx is
+can you help me find where lalala.docx sits
+can you help me find where lalala.docx exists
+show me where lalala.docx is
+show me where lalala.docx sits
+show me where lalala.docx exists
+tell me where android.java is
+tell me where android.java sits
+tell me where android.java exists
+can you help me find where android.java is
+can you help me find where android.java sits
+can you help me find where android.java exists
+show me where android.java is
+show me where android.java sits
+show me where android.java exists
+tell me where picture.jpeg is
+tell me where picture.jpeg sits
+tell me where picture.jpeg exists
+can you help me find where picture.jpeg is
+can you help me find where picture.jpeg sits
+can you help me find where picture.jpeg exists
+show me where picture.jpeg is
+show me where picture.jpeg sits
+show me where picture.jpeg exists
+show me what is in a.txt please
+show me what is in a.txt thanks
+show me what is in a.txt now
+show me what is in a.txt 
+show me what's in a.txt please
+show me what's in a.txt thanks
+show me what's in a.txt now
+show me what's in a.txt 
+show me a.txt please
+show me a.txt thanks
+show me a.txt now
+show me a.txt 
+open me a.txt please
+open me a.txt thanks
+open me a.txt now
+open me a.txt 
+show me what is in b.txt please
+show me what is in b.txt thanks
+show me what is in b.txt now
+show me what is in b.txt 
+show me what's in b.txt please
+show me what's in b.txt thanks
+show me what's in b.txt now
+show me what's in b.txt 
+show me b.txt please
+show me b.txt thanks
+show me b.txt now
+show me b.txt 
+open me b.txt please
+open me b.txt thanks
+open me b.txt now
+open me b.txt 
+show me what is in code.py please
+show me what is in code.py thanks
+show me what is in code.py now
+show me what is in code.py 
+show me what's in code.py please
+show me what's in code.py thanks
+show me what's in code.py now
+show me what's in code.py 
+show me code.py please
+show me code.py thanks
+show me code.py now
+show me code.py 
+open me code.py please
+open me code.py thanks
+open me code.py now
+open me code.py 
+show me what is in instructions.pdf please
+show me what is in instructions.pdf thanks
+show me what is in instructions.pdf now
+show me what is in instructions.pdf 
+show me what's in instructions.pdf please
+show me what's in instructions.pdf thanks
+show me what's in instructions.pdf now
+show me what's in instructions.pdf 
+show me instructions.pdf please
+show me instructions.pdf thanks
+show me instructions.pdf now
+show me instructions.pdf 
+open me instructions.pdf please
+open me instructions.pdf thanks
+open me instructions.pdf now
+open me instructions.pdf 
+show me what is in submissions.py please
+show me what is in submissions.py thanks
+show me what is in submissions.py now
+show me what is in submissions.py 
+show me what's in submissions.py please
+show me what's in submissions.py thanks
+show me what's in submissions.py now
+show me what's in submissions.py 
+show me submissions.py please
+show me submissions.py thanks
+show me submissions.py now
+show me submissions.py 
+open me submissions.py please
+open me submissions.py thanks
+open me submissions.py now
+open me submissions.py 
+show me what is in graders.c please
+show me what is in graders.c thanks
+show me what is in graders.c now
+show me what is in graders.c 
+show me what's in graders.c please
+show me what's in graders.c thanks
+show me what's in graders.c now
+show me what's in graders.c 
+show me graders.c please
+show me graders.c thanks
+show me graders.c now
+show me graders.c 
+open me graders.c please
+open me graders.c thanks
+open me graders.c now
+open me graders.c 
+show me what is in graders.cpp please
+show me what is in graders.cpp thanks
+show me what is in graders.cpp now
+show me what is in graders.cpp 
+show me what's in graders.cpp please
+show me what's in graders.cpp thanks
+show me what's in graders.cpp now
+show me what's in graders.cpp 
+show me graders.cpp please
+show me graders.cpp thanks
+show me graders.cpp now
+show me graders.cpp 
+open me graders.cpp please
+open me graders.cpp thanks
+open me graders.cpp now
+open me graders.cpp 
+show me what is in webserver.js please
+show me what is in webserver.js thanks
+show me what is in webserver.js now
+show me what is in webserver.js 
+show me what's in webserver.js please
+show me what's in webserver.js thanks
+show me what's in webserver.js now
+show me what's in webserver.js 
+show me webserver.js please
+show me webserver.js thanks
+show me webserver.js now
+show me webserver.js 
+open me webserver.js please
+open me webserver.js thanks
+open me webserver.js now
+open me webserver.js 
+show me what is in dummy.back please
+show me what is in dummy.back thanks
+show me what is in dummy.back now
+show me what is in dummy.back 
+show me what's in dummy.back please
+show me what's in dummy.back thanks
+show me what's in dummy.back now
+show me what's in dummy.back 
+show me dummy.back please
+show me dummy.back thanks
+show me dummy.back now
+show me dummy.back 
+open me dummy.back please
+open me dummy.back thanks
+open me dummy.back now
+open me dummy.back 
+show me what is in hello.html please
+show me what is in hello.html thanks
+show me what is in hello.html now
+show me what is in hello.html 
+show me what's in hello.html please
+show me what's in hello.html thanks
+show me what's in hello.html now
+show me what's in hello.html 
+show me hello.html please
+show me hello.html thanks
+show me hello.html now
+show me hello.html 
+open me hello.html please
+open me hello.html thanks
+open me hello.html now
+open me hello.html 
+show me what is in both-small.png please
+show me what is in both-small.png thanks
+show me what is in both-small.png now
+show me what is in both-small.png 
+show me what's in both-small.png please
+show me what's in both-small.png thanks
+show me what's in both-small.png now
+show me what's in both-small.png 
+show me both-small.png please
+show me both-small.png thanks
+show me both-small.png now
+show me both-small.png 
+open me both-small.png please
+open me both-small.png thanks
+open me both-small.png now
+open me both-small.png 
+show me what is in submission.pyc please
+show me what is in submission.pyc thanks
+show me what is in submission.pyc now
+show me what is in submission.pyc 
+show me what's in submission.pyc please
+show me what's in submission.pyc thanks
+show me what's in submission.pyc now
+show me what's in submission.pyc 
+show me submission.pyc please
+show me submission.pyc thanks
+show me submission.pyc now
+show me submission.pyc 
+open me submission.pyc please
+open me submission.pyc thanks
+open me submission.pyc now
+open me submission.pyc 
+show me what is in main.css please
+show me what is in main.css thanks
+show me what is in main.css now
+show me what is in main.css 
+show me what's in main.css please
+show me what's in main.css thanks
+show me what's in main.css now
+show me what's in main.css 
+show me main.css please
+show me main.css thanks
+show me main.css now
+show me main.css 
+open me main.css please
+open me main.css thanks
+open me main.css now
+open me main.css 
+show me what is in hw3 please
+show me what is in hw3 thanks
+show me what is in hw3 now
+show me what is in hw3 
+show me what's in hw3 please
+show me what's in hw3 thanks
+show me what's in hw3 now
+show me what's in hw3 
+show me hw3 please
+show me hw3 thanks
+show me hw3 now
+show me hw3 
+open me hw3 please
+open me hw3 thanks
+open me hw3 now
+open me hw3 
+show me what is in weights please
+show me what is in weights thanks
+show me what is in weights now
+show me what is in weights 
+show me what's in weights please
+show me what's in weights thanks
+show me what's in weights now
+show me what's in weights 
+show me weights please
+show me weights thanks
+show me weights now
+show me weights 
+open me weights please
+open me weights thanks
+open me weights now
+open me weights 
+show me what is in somefolder please
+show me what is in somefolder thanks
+show me what is in somefolder now
+show me what is in somefolder 
+show me what's in somefolder please
+show me what's in somefolder thanks
+show me what's in somefolder now
+show me what's in somefolder 
+show me somefolder please
+show me somefolder thanks
+show me somefolder now
+show me somefolder 
+open me somefolder please
+open me somefolder thanks
+open me somefolder now
+open me somefolder 
+show me what is in image.jpg please
+show me what is in image.jpg thanks
+show me what is in image.jpg now
+show me what is in image.jpg 
+show me what's in image.jpg please
+show me what's in image.jpg thanks
+show me what's in image.jpg now
+show me what's in image.jpg 
+show me image.jpg please
+show me image.jpg thanks
+show me image.jpg now
+show me image.jpg 
+open me image.jpg please
+open me image.jpg thanks
+open me image.jpg now
+open me image.jpg 
+show me what is in homework.doc please
+show me what is in homework.doc thanks
+show me what is in homework.doc now
+show me what is in homework.doc 
+show me what's in homework.doc please
+show me what's in homework.doc thanks
+show me what's in homework.doc now
+show me what's in homework.doc 
+show me homework.doc please
+show me homework.doc thanks
+show me homework.doc now
+show me homework.doc 
+open me homework.doc please
+open me homework.doc thanks
+open me homework.doc now
+open me homework.doc 
+show me what is in lalala.docx please
+show me what is in lalala.docx thanks
+show me what is in lalala.docx now
+show me what is in lalala.docx 
+show me what's in lalala.docx please
+show me what's in lalala.docx thanks
+show me what's in lalala.docx now
+show me what's in lalala.docx 
+show me lalala.docx please
+show me lalala.docx thanks
+show me lalala.docx now
+show me lalala.docx 
+open me lalala.docx please
+open me lalala.docx thanks
+open me lalala.docx now
+open me lalala.docx 
+show me what is in android.java please
+show me what is in android.java thanks
+show me what is in android.java now
+show me what is in android.java 
+show me what's in android.java please
+show me what's in android.java thanks
+show me what's in android.java now
+show me what's in android.java 
+show me android.java please
+show me android.java thanks
+show me android.java now
+show me android.java 
+open me android.java please
+open me android.java thanks
+open me android.java now
+open me android.java 
+show me what is in picture.jpeg please
+show me what is in picture.jpeg thanks
+show me what is in picture.jpeg now
+show me what is in picture.jpeg 
+show me what's in picture.jpeg please
+show me what's in picture.jpeg thanks
+show me what's in picture.jpeg now
+show me what's in picture.jpeg 
+show me picture.jpeg please
+show me picture.jpeg thanks
+show me picture.jpeg now
+show me picture.jpeg 
+open me picture.jpeg please
+open me picture.jpeg thanks
+open me picture.jpeg now
+open me picture.jpeg 
 display a.txt please
 display a.txt thanks
 display a.txt now
@@ -3988,342 +4324,6 @@ could you access picture.jpeg thanks
 could you access picture.jpeg now
 could you access picture.jpeg for me
 could you access picture.jpeg 
-show me what is in a.txt please
-show me what is in a.txt thanks
-show me what is in a.txt now
-show me what is in a.txt 
-show me what's in a.txt please
-show me what's in a.txt thanks
-show me what's in a.txt now
-show me what's in a.txt 
-show me a.txt please
-show me a.txt thanks
-show me a.txt now
-show me a.txt 
-open me a.txt please
-open me a.txt thanks
-open me a.txt now
-open me a.txt 
-show me what is in b.txt please
-show me what is in b.txt thanks
-show me what is in b.txt now
-show me what is in b.txt 
-show me what's in b.txt please
-show me what's in b.txt thanks
-show me what's in b.txt now
-show me what's in b.txt 
-show me b.txt please
-show me b.txt thanks
-show me b.txt now
-show me b.txt 
-open me b.txt please
-open me b.txt thanks
-open me b.txt now
-open me b.txt 
-show me what is in code.py please
-show me what is in code.py thanks
-show me what is in code.py now
-show me what is in code.py 
-show me what's in code.py please
-show me what's in code.py thanks
-show me what's in code.py now
-show me what's in code.py 
-show me code.py please
-show me code.py thanks
-show me code.py now
-show me code.py 
-open me code.py please
-open me code.py thanks
-open me code.py now
-open me code.py 
-show me what is in instructions.pdf please
-show me what is in instructions.pdf thanks
-show me what is in instructions.pdf now
-show me what is in instructions.pdf 
-show me what's in instructions.pdf please
-show me what's in instructions.pdf thanks
-show me what's in instructions.pdf now
-show me what's in instructions.pdf 
-show me instructions.pdf please
-show me instructions.pdf thanks
-show me instructions.pdf now
-show me instructions.pdf 
-open me instructions.pdf please
-open me instructions.pdf thanks
-open me instructions.pdf now
-open me instructions.pdf 
-show me what is in submissions.py please
-show me what is in submissions.py thanks
-show me what is in submissions.py now
-show me what is in submissions.py 
-show me what's in submissions.py please
-show me what's in submissions.py thanks
-show me what's in submissions.py now
-show me what's in submissions.py 
-show me submissions.py please
-show me submissions.py thanks
-show me submissions.py now
-show me submissions.py 
-open me submissions.py please
-open me submissions.py thanks
-open me submissions.py now
-open me submissions.py 
-show me what is in graders.c please
-show me what is in graders.c thanks
-show me what is in graders.c now
-show me what is in graders.c 
-show me what's in graders.c please
-show me what's in graders.c thanks
-show me what's in graders.c now
-show me what's in graders.c 
-show me graders.c please
-show me graders.c thanks
-show me graders.c now
-show me graders.c 
-open me graders.c please
-open me graders.c thanks
-open me graders.c now
-open me graders.c 
-show me what is in graders.cpp please
-show me what is in graders.cpp thanks
-show me what is in graders.cpp now
-show me what is in graders.cpp 
-show me what's in graders.cpp please
-show me what's in graders.cpp thanks
-show me what's in graders.cpp now
-show me what's in graders.cpp 
-show me graders.cpp please
-show me graders.cpp thanks
-show me graders.cpp now
-show me graders.cpp 
-open me graders.cpp please
-open me graders.cpp thanks
-open me graders.cpp now
-open me graders.cpp 
-show me what is in webserver.js please
-show me what is in webserver.js thanks
-show me what is in webserver.js now
-show me what is in webserver.js 
-show me what's in webserver.js please
-show me what's in webserver.js thanks
-show me what's in webserver.js now
-show me what's in webserver.js 
-show me webserver.js please
-show me webserver.js thanks
-show me webserver.js now
-show me webserver.js 
-open me webserver.js please
-open me webserver.js thanks
-open me webserver.js now
-open me webserver.js 
-show me what is in dummy.back please
-show me what is in dummy.back thanks
-show me what is in dummy.back now
-show me what is in dummy.back 
-show me what's in dummy.back please
-show me what's in dummy.back thanks
-show me what's in dummy.back now
-show me what's in dummy.back 
-show me dummy.back please
-show me dummy.back thanks
-show me dummy.back now
-show me dummy.back 
-open me dummy.back please
-open me dummy.back thanks
-open me dummy.back now
-open me dummy.back 
-show me what is in hello.html please
-show me what is in hello.html thanks
-show me what is in hello.html now
-show me what is in hello.html 
-show me what's in hello.html please
-show me what's in hello.html thanks
-show me what's in hello.html now
-show me what's in hello.html 
-show me hello.html please
-show me hello.html thanks
-show me hello.html now
-show me hello.html 
-open me hello.html please
-open me hello.html thanks
-open me hello.html now
-open me hello.html 
-show me what is in both-small.png please
-show me what is in both-small.png thanks
-show me what is in both-small.png now
-show me what is in both-small.png 
-show me what's in both-small.png please
-show me what's in both-small.png thanks
-show me what's in both-small.png now
-show me what's in both-small.png 
-show me both-small.png please
-show me both-small.png thanks
-show me both-small.png now
-show me both-small.png 
-open me both-small.png please
-open me both-small.png thanks
-open me both-small.png now
-open me both-small.png 
-show me what is in submission.pyc please
-show me what is in submission.pyc thanks
-show me what is in submission.pyc now
-show me what is in submission.pyc 
-show me what's in submission.pyc please
-show me what's in submission.pyc thanks
-show me what's in submission.pyc now
-show me what's in submission.pyc 
-show me submission.pyc please
-show me submission.pyc thanks
-show me submission.pyc now
-show me submission.pyc 
-open me submission.pyc please
-open me submission.pyc thanks
-open me submission.pyc now
-open me submission.pyc 
-show me what is in main.css please
-show me what is in main.css thanks
-show me what is in main.css now
-show me what is in main.css 
-show me what's in main.css please
-show me what's in main.css thanks
-show me what's in main.css now
-show me what's in main.css 
-show me main.css please
-show me main.css thanks
-show me main.css now
-show me main.css 
-open me main.css please
-open me main.css thanks
-open me main.css now
-open me main.css 
-show me what is in hw3 please
-show me what is in hw3 thanks
-show me what is in hw3 now
-show me what is in hw3 
-show me what's in hw3 please
-show me what's in hw3 thanks
-show me what's in hw3 now
-show me what's in hw3 
-show me hw3 please
-show me hw3 thanks
-show me hw3 now
-show me hw3 
-open me hw3 please
-open me hw3 thanks
-open me hw3 now
-open me hw3 
-show me what is in weights please
-show me what is in weights thanks
-show me what is in weights now
-show me what is in weights 
-show me what's in weights please
-show me what's in weights thanks
-show me what's in weights now
-show me what's in weights 
-show me weights please
-show me weights thanks
-show me weights now
-show me weights 
-open me weights please
-open me weights thanks
-open me weights now
-open me weights 
-show me what is in somefolder please
-show me what is in somefolder thanks
-show me what is in somefolder now
-show me what is in somefolder 
-show me what's in somefolder please
-show me what's in somefolder thanks
-show me what's in somefolder now
-show me what's in somefolder 
-show me somefolder please
-show me somefolder thanks
-show me somefolder now
-show me somefolder 
-open me somefolder please
-open me somefolder thanks
-open me somefolder now
-open me somefolder 
-show me what is in image.jpg please
-show me what is in image.jpg thanks
-show me what is in image.jpg now
-show me what is in image.jpg 
-show me what's in image.jpg please
-show me what's in image.jpg thanks
-show me what's in image.jpg now
-show me what's in image.jpg 
-show me image.jpg please
-show me image.jpg thanks
-show me image.jpg now
-show me image.jpg 
-open me image.jpg please
-open me image.jpg thanks
-open me image.jpg now
-open me image.jpg 
-show me what is in homework.doc please
-show me what is in homework.doc thanks
-show me what is in homework.doc now
-show me what is in homework.doc 
-show me what's in homework.doc please
-show me what's in homework.doc thanks
-show me what's in homework.doc now
-show me what's in homework.doc 
-show me homework.doc please
-show me homework.doc thanks
-show me homework.doc now
-show me homework.doc 
-open me homework.doc please
-open me homework.doc thanks
-open me homework.doc now
-open me homework.doc 
-show me what is in lalala.docx please
-show me what is in lalala.docx thanks
-show me what is in lalala.docx now
-show me what is in lalala.docx 
-show me what's in lalala.docx please
-show me what's in lalala.docx thanks
-show me what's in lalala.docx now
-show me what's in lalala.docx 
-show me lalala.docx please
-show me lalala.docx thanks
-show me lalala.docx now
-show me lalala.docx 
-open me lalala.docx please
-open me lalala.docx thanks
-open me lalala.docx now
-open me lalala.docx 
-show me what is in android.java please
-show me what is in android.java thanks
-show me what is in android.java now
-show me what is in android.java 
-show me what's in android.java please
-show me what's in android.java thanks
-show me what's in android.java now
-show me what's in android.java 
-show me android.java please
-show me android.java thanks
-show me android.java now
-show me android.java 
-open me android.java please
-open me android.java thanks
-open me android.java now
-open me android.java 
-show me what is in picture.jpeg please
-show me what is in picture.jpeg thanks
-show me what is in picture.jpeg now
-show me what is in picture.jpeg 
-show me what's in picture.jpeg please
-show me what's in picture.jpeg thanks
-show me what's in picture.jpeg now
-show me what's in picture.jpeg 
-show me picture.jpeg please
-show me picture.jpeg thanks
-show me picture.jpeg now
-show me picture.jpeg 
-open me picture.jpeg please
-open me picture.jpeg thanks
-open me picture.jpeg now
-open me picture.jpeg 
 go to a.txt
 can you go to a.txt
 please go to a.txt
@@ -4723,6 +4723,11 @@ please get in picture.jpeg
 visit picture.jpeg
 can you visit picture.jpeg
 please visit picture.jpeg
+go to parent
+go back to parent
+exit this level
+leave this level
+move to parent
 go up 1 level
 go up 2 level
 go up 3 level
@@ -4943,11 +4948,6 @@ step 7 steps up
 step 8 steps up
 step 9 steps up
 step 10 steps up
-go to parent
-go back to parent
-exit this level
-leave this level
-move to parent
 return to the place before please
 return to the place before thanks
 return to the place before now

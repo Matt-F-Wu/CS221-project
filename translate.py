@@ -358,7 +358,8 @@ def decode():
       sentence = sys.stdin.readline()
       while sentence:
         # Get token-ids for the input sentence.
-        token_ids = data_utils.sentence_to_token_ids(tf.compat.as_bytes(sentence), from_vocab)
+        token_ids, arg_value = data_utils.sentence_to_token_ids_extract_argument(tf.compat.as_bytes(sentence), from_vocab)
+        
         # Which bucket does it belong to?
         bucket_id = len(_buckets) - 1
         for i, bucket in enumerate(_buckets):
@@ -380,8 +381,13 @@ def decode():
         # If there is an EOS symbol in outputs, cut them at that point.
         if data_utils.EOS_ID in outputs:
           outputs = outputs[:outputs.index(data_utils.EOS_ID)]
-        # Print out French sentence corresponding to outputs.
-        print(" ".join([tf.compat.as_str(rev_to_vocab[output]) for output in outputs]))
+        # Print out unix commands corresponding to outputs.
+        def argumentInsertion(output):
+          if output == data_utils.UNK_ID:
+            return arg_value if arg_value else b""
+          else:
+            return rev_to_vocab[output]
+        print(" ".join([tf.compat.as_str(argumentInsertion(output)) for output in outputs]))
         print("> ", end="")
         sys.stdout.flush()
         sentence = sys.stdin.readline()
@@ -391,7 +397,7 @@ def decode():
       # 2. How many parts of a command is correct on average
       # Evaluate on training set.
       #with open('data/data.txt', 'r') as data, open('data/label.txt', 'r') as label:
-      #  decode_helper(data, label, 5030, 'Training Set', from_vocab, to_vocab, model, sess)
+      #  decode_helper(data, label, 5035, 'Training Set', from_vocab, to_vocab, model, sess)
       with open('data/validation/data.txt', 'r') as data, open('data/validation/label.txt', 'r') as label:
         decode_helper(data, label, 298, 'Validation Set', from_vocab, to_vocab, model, sess)
 
