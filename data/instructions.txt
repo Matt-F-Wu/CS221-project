@@ -4998,11 +4998,16 @@ I want to go back thanks
 I want to go back now
 I want to go back for me
 I want to go back 
-can you go backcan you return to where i was please
-can you go backcan you return to where i was thanks
-can you go backcan you return to where i was now
-can you go backcan you return to where i was for me
-can you go backcan you return to where i was 
+can you go back please
+can you go back thanks
+can you go back now
+can you go back for me
+can you go back 
+can you return to where i was please
+can you return to where i was thanks
+can you return to where i was now
+can you return to where i was for me
+can you return to where i was 
 can you return to previous location please
 can you return to previous location thanks
 can you return to previous location now

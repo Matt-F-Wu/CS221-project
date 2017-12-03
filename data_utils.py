@@ -42,6 +42,14 @@ UNK_ID = 3
 _WORD_SPLIT = re.compile(b"([.,!?\"':;)(])")
 _DIGIT_RE = re.compile(br"\d")
 
+# New features
+_DETECT_IDENTIFIER = re.compile(b"[\d_]")
+
+# Since .. denotes parent directory, we treat is as a special file name
+_DETECT_FILENAME = re.compile(b"([^.]+\.[^.]+|\.+)")
+
+# split file name: split if there is any ; / " '
+_FILENAME_SPLIT = re.compile(b"([;/\"'])")
 
 def basic_tokenizer(sentence):
   """Very basic tokenizer: split the sentence into a list of tokens."""
@@ -50,9 +58,40 @@ def basic_tokenizer(sentence):
     words.extend(_WORD_SPLIT.split(space_separated_fragment))
   return [w for w in words if w]
 
+def contain_argument(word):
+  contain_identifier = (not not _DETECT_IDENTIFIER.search(word))
+  # we can try learning more features as we proceed
+
+  return (contain_identifier or is_file_name(word))
+
+# .. is also a special file name
+def is_file_name(word):
+  return (not not _DETECT_FILENAME.match(word))
+
+def custom_tokenizer(sentence):
+  """
+  A customized tokenizer, do a first round split by white space
+  And considering the following special tokens for a second round split:
+  when the 
+  """
+  words = []
+  for space_separated_fragment in sentence.strip().split():
+    if contain_argument(space_separated_fragment):
+      argument_segments = []
+      for arg_s in _FILENAME_SPLIT.split(space_separated_fragment):
+        if is_file_name(arg_s) and arg_s != b"..":
+          # we map arguments to a special character _UNK, however .. is special
+          argument_segments.append(_UNK)
+        else:
+          argument_segments.append(arg_s)
+      words.extend(argument_segments)
+    else:
+      words.extend(_WORD_SPLIT.split(space_separated_fragment))
+  return [w for w in words if w]
+
 
 def create_vocabulary(vocabulary_path, data_path, max_vocabulary_size,
-                      tokenizer=None, normalize_digits=True):
+                      tokenizer=None, normalize_digits=False):
   """Create vocabulary file (if it does not exist yet) from data file.
 
   Data file is assumed to contain one sentence per line. Each sentence is
@@ -79,9 +118,14 @@ def create_vocabulary(vocabulary_path, data_path, max_vocabulary_size,
         if counter % 100000 == 0:
           print("  processing line %d" % counter)
         line = tf.compat.as_bytes(line)
-        tokens = tokenizer(line) if tokenizer else basic_tokenizer(line)
+        tokens = tokenizer(line) if tokenizer else custom_tokenizer(line)
         for w in tokens:
           word = _DIGIT_RE.sub(b"0", w) if normalize_digits else w
+
+          # if word is _UNK, don't add it to vocab list, it's already pre-added
+          if word == _UNK:
+            continue
+
           if word in vocab:
             vocab[word] += 1
           else:
@@ -127,7 +171,7 @@ def initialize_vocabulary(vocabulary_path):
 
 
 def sentence_to_token_ids(sentence, vocabulary,
-                          tokenizer=None, normalize_digits=True):
+                          tokenizer=None, normalize_digits=False):
   """Convert a string to list of integers representing token-ids.
 
   For example, a sentence "I have a dog" may become tokenized into
@@ -138,7 +182,7 @@ def sentence_to_token_ids(sentence, vocabulary,
     sentence: the sentence in bytes format to convert to token-ids.
     vocabulary: a dictionary mapping tokens to integers.
     tokenizer: a function to use to tokenize each sentence;
-      if None, basic_tokenizer will be used.
+      if None, custom_tokenizer will be used.
     normalize_digits: Boolean; if true, all digits are replaced by 0s.
 
   Returns:
@@ -148,15 +192,19 @@ def sentence_to_token_ids(sentence, vocabulary,
   if tokenizer:
     words = tokenizer(sentence)
   else:
-    words = basic_tokenizer(sentence)
+    words = custom_tokenizer(sentence)
   if not normalize_digits:
     return [vocabulary.get(w, UNK_ID) for w in words]
   # Normalize digits by 0 before looking words up in the vocabulary.
-  return [vocabulary.get(_DIGIT_RE.sub(b"0", w), UNK_ID) for w in words]
+  tokens = [vocabulary.get(_DIGIT_RE.sub(b"0", w), UNK_ID) for w in words]
+  print("###########")
+  print(sentence)
+  print(tokens)
+  return tokens
 
 
 def data_to_token_ids(data_path, target_path, vocabulary_path,
-                      tokenizer=None, normalize_digits=True):
+                      tokenizer=None, normalize_digits=False):
   """Tokenize data file and turn into token-ids using given vocabulary file.
 
   This function loads data line-by-line from data_path, calls the above
@@ -168,7 +216,7 @@ def data_to_token_ids(data_path, target_path, vocabulary_path,
     target_path: path where the file with token-ids will be created.
     vocabulary_path: path to the vocabulary file.
     tokenizer: a function to use to tokenize each sentence;
-      if None, basic_tokenizer will be used.
+      if None, custom_tokenizer will be used.
     normalize_digits: Boolean; if true, all digits are replaced by 0s.
   """
   if not gfile.Exists(target_path):
@@ -199,7 +247,7 @@ def prepare_data(data_dir, from_train_path, to_train_path, from_dev_path, to_dev
       from_vocabulary_size: size of the "from language" vocabulary to create and use.
       to_vocabulary_size: size of the "to language" vocabulary to create and use.
       tokenizer: a function to use to tokenize each data sentence;
-        if None, basic_tokenizer will be used.
+        if None, custom_tokenizer will be used.
 
     Returns:
       A tuple of 6 elements:

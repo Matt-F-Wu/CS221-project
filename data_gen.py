@@ -44,7 +44,7 @@ def generateTrainingSet():
 	go_back_prefix = {"all_postfix": ["return to the place before", "go back", "go back to where i was", \
 					"return to previous location", "revert", "go back to the previous location", \
 					"return to where i was", "go to the directory before", \
-					"return to the directory before", "I want to go back", "can you go back"\
+					"return to the directory before", "I want to go back", "can you go back", \
 					"can you return to where i was", "can you return to previous location",
 					"can you take me back", "take me back", "take me back to where i was", "step back"]}
 

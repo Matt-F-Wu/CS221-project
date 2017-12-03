@@ -56,7 +56,8 @@ class Seq2SeqModel(object):
                use_lstm=True,
                num_samples=512,
                forward_only=False,
-               dtype=tf.float32):
+               dtype=tf.float32,
+               weight_decay_rate=0.0):
     """Create the model.
 
     Args:
@@ -114,7 +115,7 @@ class Seq2SeqModel(object):
                 labels=labels,
                 inputs=local_inputs,
                 num_sampled=num_samples,
-                num_classes=self.target_vocab_size),
+                num_classes=self.target_vocab_size) + weight_decay_rate*tf.nn.l2_loss(local_w_t),
             dtype)
       softmax_loss_function = sampled_loss
 
@@ -183,6 +184,7 @@ class Seq2SeqModel(object):
     if not forward_only:
       self.gradient_norms = []
       self.updates = []
+      # use AdamOptimizer, AdagradOptimizer or GradientDescentOptimizer
       opt = tf.train.GradientDescentOptimizer(self.learning_rate)
       for b in xrange(len(buckets)):
         gradients = tf.gradients(self.losses[b], params)

@@ -176,7 +176,8 @@ def train():
         from_dev_data,
         to_dev_data,
         FLAGS.from_vocab_size,
-        FLAGS.to_vocab_size)
+        FLAGS.to_vocab_size,
+        data_utils.custom_tokenizer)
   else:
       # nothing to train, just return
       return
@@ -206,6 +207,7 @@ def train():
     step_time, loss = 0.0, 0.0
     current_step = 0
     previous_losses = []
+    eval_prev_ppx = []
     while True:
       # Choose a bucket according to data distribution. We pick a random number
       # in [0, 1] and use the corresponding interval in train_buckets_scale.
@@ -241,17 +243,25 @@ def train():
         model.saver.save(sess, checkpoint_path, global_step=model.global_step)
         step_time, loss = 0.0, 0.0
         # Run evals on development set and print their perplexity.
-        for bucket_id in xrange(len(_buckets)):
-          if len(dev_set[bucket_id]) == 0:
-            print("  eval: empty bucket %d" % (bucket_id))
-            continue
-          encoder_inputs, decoder_inputs, target_weights = model.get_batch(
-              dev_set, bucket_id)
-          _, eval_loss, _ = model.step(sess, encoder_inputs, decoder_inputs,
-                                       target_weights, bucket_id, True)
-          eval_ppx = math.exp(float(eval_loss)) if eval_loss < 300 else float(
-              "inf")
-          print("  eval: bucket %d perplexity %.2f" % (bucket_id, eval_ppx))
+        bucket_id = 0
+        if len(dev_set[bucket_id]) == 0:
+          print("  eval: empty bucket %d" % (bucket_id))
+          continue
+        encoder_inputs, decoder_inputs, target_weights = model.get_batch(
+            dev_set, bucket_id)
+
+        # forward_only set to True, we are not learning the validation set
+        _, eval_loss, _ = model.step(sess, encoder_inputs, decoder_inputs,
+                                     target_weights, bucket_id, True)
+        eval_ppx = math.exp(float(eval_loss)) if eval_loss < 300 else float(
+            "inf")
+        # Early Stopping
+        #if perplexity < 3 and len(eval_prev_ppx) > 9 and eval_ppx > max(eval_prev_ppx[-10:]):
+        #  break
+
+        eval_prev_ppx.append(eval_ppx)
+
+        print("  eval: bucket %d perplexity %.2f" % (bucket_id, eval_ppx))
         sys.stdout.flush()
 
 def check_order(a, b):
@@ -290,7 +300,7 @@ def decode_helper(data, label, size, set_name, from_vocab, to_vocab, model, sess
     encoder_inputs, decoder_inputs, target_weights = model.get_batch(
         {bucket_id: [(token_ids, [])]}, bucket_id)
     # Get output logits for the sentence.
-    _, _, output_logits = model.step(sess, encoder_inputs, decoder_inputs,
+    _, one_loss, output_logits = model.step(sess, encoder_inputs, decoder_inputs,
                                      target_weights, bucket_id, True)
     # This is a greedy decoder - outputs are just argmaxes of output_logits.
     outputs = [int(np.argmax(logit, axis=1)) for logit in output_logits]
@@ -301,7 +311,10 @@ def decode_helper(data, label, size, set_name, from_vocab, to_vocab, model, sess
 
     # compare the target label with our output
     target_label = data_utils.sentence_to_token_ids(tf.compat.as_bytes(ll), to_vocab)
-
+    # find the perplexity of this one element prediction
+    one_ppx = math.exp(float(one_loss)) if one_loss < 300 else float(
+            "inf")
+    
     # num of parts of an instruction that matched
     count_num_same = 0
     for target_label_v, outputs_v in zip(target_label, outputs):
@@ -312,9 +325,11 @@ def decode_helper(data, label, size, set_name, from_vocab, to_vocab, model, sess
     if count_num_same == len(target_label):
       count_complete_match += 1
 
-    print("t:{} vs o:{}".format(target_label, outputs))
+    print("label: {} ## t:{} vs o:{} ## with loss: {}".format(ll, target_label, outputs, one_ppx))
+    print("--------------------------")
     if check_order(target_label, outputs):
       count_right_order += 1
+
   print("Overall parts matched per command in precentage: {} in {}".format(np.average(count_portion_match), set_name))
   print("precentage of correct ordered command: {} in {}".format(count_right_order*1.0/size, set_name))
   print("Number of complete matches: {} out of {} in {}".format(count_complete_match, size, set_name))
