@@ -255,6 +255,10 @@ def train():
                                      target_weights, bucket_id, True)
         eval_ppx = math.exp(float(eval_loss)) if eval_loss < 300 else float(
             "inf")
+
+        ## test, need to remove
+        #if eval_ppx < 1.06:
+        #  break
         # Early Stopping
         #if perplexity < 3 and len(eval_prev_ppx) > 9 and eval_ppx > max(eval_prev_ppx[-10:]):
         #  break
@@ -325,8 +329,8 @@ def decode_helper(data, label, size, set_name, from_vocab, to_vocab, model, sess
     if count_num_same == len(target_label):
       count_complete_match += 1
 
-    print("label: {} ## t:{} vs o:{} ## with loss: {}".format(ll, target_label, outputs, one_ppx))
-    print("--------------------------")
+    #print("label: {} ## t:{} vs o:{} ## with loss: {}".format(ll, target_label, outputs, one_ppx))
+    #print("--------------------------")
     if check_order(target_label, outputs):
       count_right_order += 1
 
@@ -396,10 +400,10 @@ def decode():
       # 1. How many are exactly correct
       # 2. How many parts of a command is correct on average
       # Evaluate on training set.
-      #with open('data/data.txt', 'r') as data, open('data/label.txt', 'r') as label:
-      #  decode_helper(data, label, 5035, 'Training Set', from_vocab, to_vocab, model, sess)
-      with open('data/validation/data.txt', 'r') as data, open('data/validation/label.txt', 'r') as label:
-        decode_helper(data, label, 298, 'Validation Set', from_vocab, to_vocab, model, sess)
+      with open('data/data.txt', 'r') as data, open('data/label.txt', 'r') as label:
+        decode_helper(data, label, 5035, 'Training Set', from_vocab, to_vocab, model, sess)
+      #with open('data/validation/data.txt', 'r') as data, open('data/validation/label.txt', 'r') as label:
+      #  decode_helper(data, label, 298, 'Validation Set', from_vocab, to_vocab, model, sess)
 
 def main(_):
   if FLAGS.decode:

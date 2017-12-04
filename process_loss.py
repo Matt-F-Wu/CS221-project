@@ -1,6 +1,6 @@
-loss_file = open("all_loss.dat", 'r')
-train_loss = open("tr_loss.csv", 'w')
-val_loss = open("va_loss.csv", 'w')
+loss_file = open("./results/all_loss.dat", 'r')
+train_loss = open("./results/tr_loss.csv", 'w')
+val_loss = open("./results/va_loss.csv", 'w')
 
 content = loss_file.readlines()
 

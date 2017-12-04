@@ -18,7 +18,6 @@ cat
 fi
 ../
 cd
-hw3
 weights
 somefolder
 -

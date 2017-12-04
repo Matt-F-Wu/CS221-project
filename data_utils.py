@@ -46,7 +46,7 @@ _DIGIT_RE = re.compile(br"\d")
 _DETECT_IDENTIFIER = re.compile(b"[\d_]")
 
 # Since ../ denotes parent directory, we treat is as a special file name
-_DETECT_FILENAME = re.compile(b"([^.]+\.[^.]+|(\.\./?)+)")
+_DETECT_FILENAME = re.compile(b"([^.]+\.[^.]+|(\.\./?)+|^([0-9]+[a-zA-Z]+|[a-zA-Z]+[0-9]+)[0-9a-zA-Z]*$)")
 
 # split file name: split if there is any ; / " '
 _FILENAME_SPLIT = re.compile(b"([;\"'])")

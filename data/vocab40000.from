@@ -27,7 +27,6 @@ in
 where
 go
 is
-hw3
 weights
 somefolder
 steps
