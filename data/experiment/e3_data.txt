@@ -1,0 +1,100 @@
+can you go out 7 directory
+can you go out 3 level
+please go up 6 directory
+can you go out 3 directory
+please go up 9 directory
+can you go out 9 level
+please go 9 level up
+can you move 1 steps up
+please go 1 level up
+please go up 5 level
+can you move 8 directory up
+please go up 3 directory
+can you move 4 steps up
+please go 7 directory up
+please go 7 steps up
+can you move 6 steps up
+can you move 10 level up
+please go 1 directory up
+can you go out 8 level
+can you go out 4 directory
+please go up 2 level
+can you move 2 steps up
+can you move 8 level up
+please go up 9 level
+please go 4 level up
+please go up 7 level
+please go 2 steps up
+can you move 6 directory up
+please go up 5 directory
+please go up 1 level
+can you move 9 level up
+please go up 7 directory
+please go up 8 level
+please go 4 steps up
+please go 10 directory up
+please go up 1 directory
+can you move 9 directory up
+please go up 6 level
+can you move 2 level up
+can you go out 8 directory
+please go 3 level up
+can you move 4 directory up
+can you go out 10 directory
+can you go out 6 level
+please go up 10 directory
+can you move 6 level up
+please go up 10 level
+can you move 5 directory up
+please go 3 steps up
+please go up 2 directory
+can you move 7 directory up
+can you move 3 level up
+can you go out 6 directory
+can you move 9 steps up
+can you move 8 steps up
+can you move 4 level up
+can you go out 9 directory
+can you go out 2 level
+please go 8 level up
+can you move 3 steps up
+please go 2 level up
+can you move 7 level up
+please go up 4 directory
+can you move 5 level up
+please go 2 directory up
+can you go out 5 level
+please go 6 steps up
+please go 8 steps up
+can you move 7 steps up
+can you move 10 directory up
+please go up 8 directory
+please go 6 directory up
+please go 10 level up
+please go 10 steps up
+can you move 5 steps up
+please go 9 steps up
+please go 9 directory up
+please go up 3 level
+please go 6 level up
+can you go out 2 directory
+can you go out 10 level
+can you move 1 directory up
+can you go out 5 directory
+can you move 10 steps up
+can you move 2 directory up
+please go 7 level up
+please go up 4 level
+can you go out 4 level
+can you move 3 directory up
+can you move 1 level up
+please go 3 directory up
+please go 5 directory up
+please go 5 steps up
+please go 5 level up
+can you go out 7 level
+please go 1 steps up
+can you go out 1 directory
+can you go out 1 level
+please go 8 directory up
+please go 4 directory up

@@ -82,6 +82,8 @@ tf.app.flags.DEFINE_boolean("decode", False,
                             "Set to True for interactive decoding.")
 tf.app.flags.DEFINE_boolean("self_test", False,
                             "Run a self-test if this is set to True.")
+tf.app.flags.DEFINE_boolean("experiment", False,
+                            "Run 3 experiments")
 tf.app.flags.DEFINE_boolean("use_fp16", False,
                             "Train using fp16 instead of fp32.")
 
@@ -328,6 +330,8 @@ def decode_helper(data, label, size, set_name, from_vocab, to_vocab, model, sess
     # if this is a complete match
     if count_num_same == len(target_label):
       count_complete_match += 1
+    else:
+      print("data: {}; and label: {} === t:{} vs o:{}".format(dd, ll, target_label, outputs))
 
     #print("label: {} ## t:{} vs o:{} ## with loss: {}".format(ll, target_label, outputs, one_ppx))
     #print("--------------------------")
@@ -395,15 +399,22 @@ def decode():
         print("> ", end="")
         sys.stdout.flush()
         sentence = sys.stdin.readline()
+    elif FLAGS.experiment:
+      with open('data/experiment/e1_data.txt','r') as data, open('data/experiment/e1_label.txt', 'r') as label:
+        decode_helper(data, label, 177, 'Experiment 1', from_vocab, to_vocab, model, sess)
+      with open('data/experiment/e2_data.txt','r') as data, open('data/experiment/e2_label.txt', 'r') as label:
+        decode_helper(data, label, 30, 'Experiment 2', from_vocab, to_vocab, model, sess)
+      with open('data/experiment/e3_data.txt','r') as data, open('data/experiment/e3_label.txt', 'r') as label:
+        decode_helper(data, label, 100, 'Experiment 3', from_vocab, to_vocab, model, sess)
     else:
       # Read both the training and validation data/label and evaluation metrics
       # 1. How many are exactly correct
       # 2. How many parts of a command is correct on average
       # Evaluate on training set.
-      with open('data/data.txt', 'r') as data, open('data/label.txt', 'r') as label:
-        decode_helper(data, label, 5035, 'Training Set', from_vocab, to_vocab, model, sess)
-      #with open('data/validation/data.txt', 'r') as data, open('data/validation/label.txt', 'r') as label:
-      #  decode_helper(data, label, 298, 'Validation Set', from_vocab, to_vocab, model, sess)
+      #with open('data/data.txt', 'r') as data, open('data/label.txt', 'r') as label:
+      #  decode_helper(data, label, 5035, 'Training Set', from_vocab, to_vocab, model, sess)
+      with open('data/validation/data.txt', 'r') as data, open('data/validation/label.txt', 'r') as label:
+        decode_helper(data, label, 298, 'Validation Set', from_vocab, to_vocab, model, sess)
 
 def main(_):
   if FLAGS.decode:

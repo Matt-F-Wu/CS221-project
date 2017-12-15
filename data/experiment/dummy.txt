@@ -1,0 +1,10 @@
+can you move 10 level up
+please go 10 directory up
+can you go out 10 directory
+please go up 10 directory
+please go up 10 level
+can you move 10 directory up
+please go 10 level up
+please go 10 steps up
+can you go out 10 level
+can you move 10 steps up
